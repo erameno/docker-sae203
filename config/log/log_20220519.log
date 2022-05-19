@@ -136,3 +136,28 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [2022-05-19 08:08:14.074 +00:00] [INF] [24] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /media
 [2022-05-19 08:08:55.134 +00:00] [INF] [32] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" closed
 [2022-05-19 08:08:55.681 +00:00] [INF] [37] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" request
+[2022-05-19 08:11:21.099 +00:00] [INF] [67] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" closed
+[2022-05-19 08:11:21.671 +00:00] [INF] [56] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" request
+[2022-05-19 08:12:58.026 +00:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2022-05-19 08:12:58.028 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2022-05-19 08:12:58.029 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2022-05-19 08:12:58.030 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-05-19 08:12:58.030 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2022-05-19 08:12:58.030 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2022-05-19 08:12:58.031 +00:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2022-05-19 08:12:58.031 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2022-05-19 08:12:58.032 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2022-05-19 08:12:58.033 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2022-05-19 08:12:58.034 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2022-05-19 08:12:58.035 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2022-05-19 08:12:58.035 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpDevicePublisher
+[2022-05-19 08:12:58.140 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2022-05-19 08:12:58.141 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2022-05-19 08:12:58.142 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2022-05-19 08:12:58.142 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2022-05-19 08:12:58.144 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 2 sendSockets
+[2022-05-19 08:12:58.144 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2022-05-19 08:12:58.144 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.17.0.2"
+[2022-05-19 08:12:58.144 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2022-05-19 08:12:58.145 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-05-19 08:12:58.145 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
