@@ -161,3 +161,49 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [2022-05-19 08:12:58.144 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
 [2022-05-19 08:12:58.145 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
 [2022-05-19 08:12:58.145 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
+[2022-05-19 08:18:12.049 +00:00] [INF] [1] Main: Jellyfin version: "10.7.7"
+[2022-05-19 08:18:12.109 +00:00] [INF] [1] Main: Environment Variables: ["[JELLYFIN_MEDIA_DIR, /media]", "[JELLYFIN_FFMPEG, /usr/lib/jellyfin-ffmpeg/ffmpeg]", "[JELLYFIN_CONFIG_DIR, /config/config]", "[JELLYFIN_WEB_DIR, /jellyfin/jellyfin-web]", "[JELLYFIN_CACHE_DIR, /cache]", "[JELLYFIN_DATA_DIR, /config]", "[DOTNET_SYSTEM_GLOBALIZATION_INVARIANT, 1]", "[JELLYFIN_LOG_DIR, /config/log]"]
+[2022-05-19 08:18:12.115 +00:00] [INF] [1] Main: Arguments: ["/jellyfin/jellyfin.dll"]
+[2022-05-19 08:18:12.118 +00:00] [INF] [1] Main: Operating system: "Linux"
+[2022-05-19 08:18:12.121 +00:00] [INF] [1] Main: Architecture: X64
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: 64-Bit Process: True
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: User Interactive: True
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: Processor count: 8
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: Program data path: "/config"
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: Web resources path: "/jellyfin/jellyfin-web"
+[2022-05-19 08:18:12.124 +00:00] [INF] [1] Main: Application directory: "/jellyfin/"
+[2022-05-19 08:18:12.323 +00:00] [INF] [1] Emby.Server.Implementations.AppBase.BaseConfigurationManager: Setting cache path: "/cache"
+[2022-05-19 08:18:12.379 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN addresses : "[127.0.0.1/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2022-05-19 08:18:12.379 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Defined LAN exclusions : "[]"
+[2022-05-19 08:18:12.380 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using LAN addresses: "[127.0.0.1/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16]"
+[2022-05-19 08:18:12.387 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind addresses: "[]"
+[2022-05-19 08:18:12.387 +00:00] [INF] [1] Jellyfin.Networking.Manager.NetworkManager: Using bind exclusions: "[]"
+[2022-05-19 08:18:12.421 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Loading assemblies
+[2022-05-19 08:18:13.810 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "OMDb" "10.7.7.0"
+[2022-05-19 08:18:13.811 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "MusicBrainz" "10.7.7.0"
+[2022-05-19 08:18:13.813 +00:00] [INF] [1] Emby.Server.Implementations.Plugins.PluginManager: Loaded plugin: "AudioDB" "10.7.7.0"
+[2022-05-19 08:18:13.889 +00:00] [INF] [1] Main: Kestrel listening on "Any IP4 Address"
+[2022-05-19 08:18:14.078 +00:00] [WRN] [1] Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager: No XML encryptor configured. Key {520db45c-102f-40ff-8a88-71cf3712dfbe} may be persisted to storage in unencrypted form.
+[2022-05-19 08:18:14.103 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: Running startup tasks
+[2022-05-19 08:18:14.138 +00:00] [INF] [1] Emby.Server.Implementations.ScheduledTasks.TaskManager: Daily trigger for "Extraire les images de chapitre" set to fire at 05/20/2022 02:00, which is 17:41:45.8616527 from now.
+[2022-05-19 08:18:14.249 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Found ffmpeg version "4.3.2"
+[2022-05-19 08:18:14.272 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "decoders": ["h264", "h264_qsv", "h264_cuvid", "hevc", "hevc_qsv", "hevc_cuvid", "mpeg2video", "mpeg2_qsv", "mpeg2_cuvid", "mpeg4", "mpeg4_cuvid", "msmpeg4", "vc1_qsv", "vc1_cuvid", "vp8_cuvid", "vp8_qsv", "vp9_cuvid", "vp9_qsv", "aac", "ac3", "flac", "mp3"]
+[2022-05-19 08:18:14.283 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available "encoders": ["libx264", "h264_amf", "h264_nvenc", "h264_qsv", "h264_v4l2m2m", "h264_vaapi", "libx265", "hevc_amf", "hevc_nvenc", "hevc_qsv", "hevc_vaapi", "mpeg4", "msmpeg4", "libvpx", "libvpx-vp9", "aac", "ac3", "flac", "libmp3lame", "libopus", "libvorbis", "srt"]
+[2022-05-19 08:18:14.293 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: Available hwaccel types: ["vdpau", "cuda", "vaapi", "qsv", "drm", "opencl"]
+[2022-05-19 08:18:14.294 +00:00] [INF] [1] MediaBrowser.MediaEncoding.Encoder.MediaEncoder: FFmpeg: SetByArgument: "/usr/lib/jellyfin-ffmpeg/ffmpeg"
+[2022-05-19 08:18:14.303 +00:00] [INF] [1] Emby.Server.Implementations.ApplicationHost: ServerId: "784c1be9c7f54e31b8ff980ecec872ac"
+[2022-05-19 08:18:14.996 +00:00] [INF] [16] Emby.Dlna.Main.DlnaEntryPoint: Registering publisher for "urn:schemas-upnp-org:device:MediaServer:1" on "172.17.0.2/16"
+[2022-05-19 08:18:15.010 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Executed all pre-startup entry points in 0:00:00.6970786
+[2022-05-19 08:18:15.010 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Core startup complete
+[2022-05-19 08:18:15.184 +00:00] [INF] [16] Emby.Server.Implementations.ApplicationHost: Executed all post-startup entry points in 0:00:00.1740501
+[2022-05-19 08:18:15.185 +00:00] [INF] [16] Main: Startup complete 0:00:03.315286
+[2022-05-19 08:18:15.192 +00:00] [INF] [9] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /media
+[2022-05-19 08:18:17.191 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: "StartupTrigger" fired for task: "Mettre à jour les extensions"
+[2022-05-19 08:18:17.192 +00:00] [INF] [11] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PluginUpdateTask"
+[2022-05-19 08:18:17.195 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Mettre à jour les extensions"
+[2022-05-19 08:18:17.867 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Mettre à jour les extensions" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 08:18:17.893 +00:00] [INF] [9] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 08:18:32.782 +00:00] [INF] [4] Jellyfin.Server.Implementations.Users.UserManager: Authentication request for "test" has succeeded.
+[2022-05-19 08:18:32.784 +00:00] [INF] [4] Emby.Server.Implementations.Session.SessionManager: Current/Max sessions for user "test": 0/0
+[2022-05-19 08:18:32.799 +00:00] [INF] [4] Emby.Server.Implementations.Session.SessionManager: Creating new access token for user b4e2f196-eb26-423e-b316-b5dae9786f40
+[2022-05-19 08:18:33.014 +00:00] [INF] [21] Emby.Server.Implementations.HttpServer.WebSocketManager: WS "172.17.0.1" request
