@@ -6,7 +6,7 @@
   <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
-      <Path>/var/media/jellyfin</Path>
+      <Path>/var/media/jellyfin/Film</Path>
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>
@@ -15,8 +15,8 @@
   <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
   <EnableEmbeddedEpisodeInfos>false</EnableEmbeddedEpisodeInfos>
   <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
-  <PreferredMetadataLanguage />
-  <MetadataCountryCode />
+  <PreferredMetadataLanguage>fr</PreferredMetadataLanguage>
+  <MetadataCountryCode>FR</MetadataCountryCode>
   <SeasonZeroDisplayName>Specials</SeasonZeroDisplayName>
   <MetadataSavers />
   <DisabledLocalMetadataReaders />
