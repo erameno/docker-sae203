@@ -20,6 +20,7 @@ EXPOSE 8096
 RUN     apt-get update
 RUN     apt-get install jellyfin -y
 
+
 CMD ["/usr/bin/jellyfin", \
 "--datadir", "/var/lib/jellyfin", \
 "--cachedir", "/var/cache/jellyfin", \
