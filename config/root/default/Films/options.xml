@@ -6,7 +6,7 @@
   <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
-      <Path>/media</Path>
+      <Path>/var/media/jellyfin</Path>
     </MediaPathInfo>
   </PathInfos>
   <SaveLocalMetadata>false</SaveLocalMetadata>

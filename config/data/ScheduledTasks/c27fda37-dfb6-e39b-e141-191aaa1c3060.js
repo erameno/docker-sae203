@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2022-05-19T16:06:04.1785686Z","EndTimeUtc":"2022-05-19T16:06:04.8522568Z","Status":"Completed","Name":"Update Plugins","Key":"PluginUpdates","Id":"c27fda37dfb6e39be141191aaa1c3060"}
+{"StartTimeUtc":"2022-05-20T12:13:29.3758911Z","EndTimeUtc":"2022-05-20T12:13:31.0563896Z","Status":"Completed","Name":"Mettre à jour les extensions","Key":"PluginUpdates","Id":"c27fda37dfb6e39be141191aaa1c3060"}

@@ -9,9 +9,10 @@ RUN    wget -O- https://repo.jellyfin.org/jellyfin_team.gpg.key | gpg --dearmor 
 RUN    echo "deb [arch=$( dpkg --print-architecture ) signed-by=/usr/share/keyrings/jellyfin.gpg] https://repo.jellyfin.org/debian bullseye main" | tee /etc/apt/sources.list.d/jellyfin.list
 
 
-COPY ./video /media
-COPY ./cache /cache
-COPY ./config /config
+# COPY ./video /var/media/jellyfin
+# COPY ./cache /var/cache/jellyfin
+# COPY ./config /var/config/jellyfin
+# COPY ./lib /var/lib/jellyfin
 
 
 EXPOSE 8096
