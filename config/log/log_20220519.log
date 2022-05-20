@@ -403,3 +403,83 @@ System.NullReferenceException: Object reference not set to an instance of an obj
 [2022-05-19 16:07:32.732 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 3 seconds
 [2022-05-19 16:07:32.735 +00:00] [INF] [32] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /media
 [2022-05-19 16:07:32.738 +00:00] [INF] [38] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 16:31:15.304 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Sending ForceKeepAlive message to 1 inactive WebSockets.
+[2022-05-19 16:31:27.303 +00:00] [INF] [25] Emby.Server.Implementations.Session.SessionWebSocketListener: Lost 1 WebSockets.
+[2022-05-19 17:06:01.114 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Download missing subtitles"
+[2022-05-19 17:06:01.116 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "SubtitleScheduledTask"
+[2022-05-19 17:06:01.117 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Download missing subtitles"
+[2022-05-19 17:06:01.132 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh People"
+[2022-05-19 17:06:01.133 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "PeopleValidationTask"
+[2022-05-19 17:06:01.133 +00:00] [INF] [224] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh People"
+[2022-05-19 17:06:01.135 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Download missing subtitles" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.155 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.322 +00:00] [INF] [223] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Scan Media Library"
+[2022-05-19 17:06:01.322 +00:00] [INF] [223] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshMediaLibraryTask"
+[2022-05-19 17:06:01.322 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Transcode Directory"
+[2022-05-19 17:06:01.322 +00:00] [INF] [218] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Log Directory"
+[2022-05-19 17:06:01.322 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteTranscodeFileTask"
+[2022-05-19 17:06:01.322 +00:00] [INF] [218] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteLogFileTask"
+[2022-05-19 17:06:01.322 +00:00] [INF] [220] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "TasksRefreshChannels"
+[2022-05-19 17:06:01.322 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Refresh Guide"
+[2022-05-19 17:06:01.322 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: "IntervalTrigger" fired for task: "Clean Cache Directory"
+[2022-05-19 17:06:01.322 +00:00] [INF] [220] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2022-05-19 17:06:01.322 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "DeleteCacheFileTask"
+[2022-05-19 17:06:01.322 +00:00] [INF] [132] Emby.Server.Implementations.ScheduledTasks.TaskManager: Queuing task "RefreshChannelsScheduledTask"
+[2022-05-19 17:06:01.323 +00:00] [INF] [219] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Scan Media Library"
+[2022-05-19 17:06:01.323 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Log Directory"
+[2022-05-19 17:06:01.323 +00:00] [INF] [219] Emby.Server.Implementations.IO.LibraryMonitor: Stopping directory watching for path "/media"
+[2022-05-19 17:06:01.323 +00:00] [INF] [223] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Transcode Directory"
+[2022-05-19 17:06:01.324 +00:00] [INF] [218] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "TasksRefreshChannels"
+[2022-05-19 17:06:01.324 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Clean Cache Directory"
+[2022-05-19 17:06:01.324 +00:00] [INF] [135] Emby.Server.Implementations.ScheduledTasks.TaskManager: Executing "Refresh Guide"
+[2022-05-19 17:06:01.325 +00:00] [INF] [219] Emby.Server.Implementations.Library.LibraryManager: Validating media library
+[2022-05-19 17:06:01.342 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Log Directory" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.356 +00:00] [INF] [223] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Transcode Directory" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.357 +00:00] [INF] [221] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.382 +00:00] [INF] [223] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.416 +00:00] [INF] [218] Emby.Server.Implementations.ScheduledTasks.TaskManager: "TasksRefreshChannels" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.421 +00:00] [INF] [218] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.538 +00:00] [INF] [219] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/2144b2ed54484deaab40e2e41bd20c67.png"
+[2022-05-19 17:06:01.550 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Clean Cache Directory" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.554 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.707 +00:00] [INF] [224] Emby.Server.Implementations.Library.LibraryManager: People validation complete
+[2022-05-19 17:06:01.707 +00:00] [INF] [224] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh People" Completed after 0 minute(s) and 0 seconds
+[2022-05-19 17:06:01.710 +00:00] [INF] [224] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:01.889 +00:00] [INF] [219] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/2144b2ed54484deaab40e2e41bd20c67.png"
+[2022-05-19 17:06:02.031 +00:00] [INF] [45] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Movie", Name: "Fight club (Bande annonce Vf)", Path: "/media/Fight club (Bande annonce Vf).mp4", Id: d6c0bc1b-fac6-0f66-348a-f888ab3ca412
+[2022-05-19 17:06:02.052 +00:00] [INF] [45] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Movie", Name: "A Short Film About Killing", Path: "/media/Film (1990).mp4", Id: 5ed008cf-d30d-35b4-f02a-3d629f9dc8fa
+[2022-05-19 17:06:04.433 +00:00] [INF] [45] Emby.Server.Implementations.LiveTv.LiveTvManager: Refreshing guide with 7 days of guide data
+[2022-05-19 17:06:04.438 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Refresh Guide" Completed after 0 minute(s) and 3 seconds
+[2022-05-19 17:06:04.441 +00:00] [INF] [45] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:06:04.750 +00:00] [INF] [223] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/f674e8a045ba4014b5cf151a8393637a.png"
+[2022-05-19 17:06:05.055 +00:00] [INF] [223] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/f674e8a045ba4014b5cf151a8393637a.png"
+[2022-05-19 17:06:05.121 +00:00] [INF] [218] Emby.Drawing.ImageProcessor: Creating image collage and saving to "/cache/temp/f0f9f9a3ab6d48678765d8dbc5fd3a17.png"
+[2022-05-19 17:06:05.485 +00:00] [INF] [218] Emby.Drawing.ImageProcessor: Completed creation of image collage and saved to "/cache/temp/f0f9f9a3ab6d48678765d8dbc5fd3a17.png"
+[2022-05-19 17:06:06.594 +00:00] [INF] [220] Emby.Server.Implementations.Library.Validators.StudiosValidator: Deleting dead "268ee16ea957923e39f161212abf5cf1" "Zespól Filmowy \"Tor\"" "Studio".
+[2022-05-19 17:06:06.594 +00:00] [INF] [220] Emby.Server.Implementations.Library.LibraryManager: Removing item, Type: "Studio", Name: "Zespól Filmowy \"Tor\"", Path: "/config/metadata/Studio/Zespól Filmowy \"Tor\"", Id: 268ee16e-a957-923e-39f1-61212abf5cf1
+[2022-05-19 17:06:06.608 +00:00] [INF] [220] Emby.Server.Implementations.ScheduledTasks.TaskManager: "Scan Media Library" Completed after 0 minute(s) and 5 seconds
+[2022-05-19 17:06:06.609 +00:00] [INF] [45] Emby.Server.Implementations.IO.LibraryMonitor: Watching directory /media
+[2022-05-19 17:06:06.610 +00:00] [INF] [220] Emby.Server.Implementations.ScheduledTasks.TaskManager: ExecuteQueuedTasks
+[2022-05-19 17:54:09.971 +00:00] [INF] [2] Main: Received a SIGTERM signal, shutting down
+[2022-05-19 17:54:09.986 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "CoreAppHost"
+[2022-05-19 17:54:09.990 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EmbyTV"
+[2022-05-19 17:54:09.992 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-05-19 17:54:09.993 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryMonitorStartup"
+[2022-05-19 17:54:09.993 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "ExternalPortForwarding"
+[2022-05-19 17:54:09.997 +00:00] [INF] [2] Emby.Server.Implementations.EntryPoints.ExternalPortForwarding: Stopping NAT discovery
+[2022-05-19 17:54:10.006 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "LibraryChangedNotifier"
+[2022-05-19 17:54:10.009 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "RecordingNotifier"
+[2022-05-19 17:54:10.011 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UdpServerEntryPoint"
+[2022-05-19 17:54:10.013 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "UserDataChangeNotifier"
+[2022-05-19 17:54:10.014 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DlnaEntryPoint"
+[2022-05-19 17:54:10.015 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpDevicePublisher
+[2022-05-19 17:54:10.125 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing PlayToManager
+[2022-05-19 17:54:10.126 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing DeviceDiscovery
+[2022-05-19 17:54:10.127 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: Disposing SsdpCommunicationsServer
+[2022-05-19 17:54:10.128 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing _BroadcastListenSocket
+[2022-05-19 17:54:10.129 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" Disposing 2 sendSockets
+[2022-05-19 17:54:10.129 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "0.0.0.0"
+[2022-05-19 17:54:10.129 +00:00] [INF] [2] Emby.Dlna.Main.DlnaEntryPoint: "SsdpCommunicationsServer" disposing sendSocket from "172.17.0.2"
+[2022-05-19 17:54:10.130 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "NotificationEntryPoint"
+[2022-05-19 17:54:10.132 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "EntryPoint"
+[2022-05-19 17:54:10.132 +00:00] [INF] [2] Emby.Server.Implementations.ApplicationHost: Disposing "DeviceAccessEntryPoint"
