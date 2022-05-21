@@ -30,7 +30,7 @@
   <CertificatePath />
   <CertificatePassword />
   <IsPortAuthorized>true</IsPortAuthorized>
-  <QuickConnectAvailable>true</QuickConnectAvailable>
+  <QuickConnectAvailable>false</QuickConnectAvailable>
   <EnableRemoteAccess>true</EnableRemoteAccess>
   <EnableCaseSensitiveItemIds>true</EnableCaseSensitiveItemIds>
   <DisableLiveTvChannelUserDataName>true</DisableLiveTvChannelUserDataName>
