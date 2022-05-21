@@ -8,23 +8,27 @@
   <EnableHttps>false</EnableHttps>
   <PublicPort>8096</PublicPort>
   <UPnPCreateHttpPortMap>false</UPnPCreateHttpPortMap>
+  <UDPPortRange />
   <EnableIPV6>false</EnableIPV6>
   <EnableIPV4>true</EnableIPV4>
   <EnableSSDPTracing>false</EnableSSDPTracing>
+  <SSDPTracingFilter />
   <UDPSendCount>2</UDPSendCount>
   <UDPSendDelay>100</UDPSendDelay>
   <IgnoreVirtualInterfaces>true</IgnoreVirtualInterfaces>
   <VirtualInterfaceNames>vEthernet*</VirtualInterfaceNames>
   <GatewayMonitorPeriod>60</GatewayMonitorPeriod>
   <TrustAllIP6Interfaces>false</TrustAllIP6Interfaces>
+  <HDHomerunPortRange />
   <PublishedServerUriBySubnet />
   <AutoDiscoveryTracing>false</AutoDiscoveryTracing>
   <AutoDiscovery>true</AutoDiscovery>
   <RemoteIPFilter />
-  <IsRemoteIPFilterBlacklist>true</IsRemoteIPFilterBlacklist>
+  <IsRemoteIPFilterBlacklist>false</IsRemoteIPFilterBlacklist>
   <EnableUPnP>false</EnableUPnP>
-  <EnableRemoteAccess>false</EnableRemoteAccess>
+  <EnableRemoteAccess>true</EnableRemoteAccess>
   <LocalNetworkSubnets />
   <LocalNetworkAddresses />
   <KnownProxies />
+  <EnablePublishedServerUriByRequest>false</EnablePublishedServerUriByRequest>
 </NetworkConfiguration>
