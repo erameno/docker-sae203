@@ -14,7 +14,7 @@ Instruction d'installation
 
 **cd docker-sae203** 
 
-*Cette commande est à effectué au même endroit où vous avez décidé de cloner le répositoire* 
+*Cette commande est à effectuer au même endroit où vous avez décidé de cloner le répositoire* 
 
 
 
