@@ -20,12 +20,12 @@ Instruction d'installation
 
 - Construction du conteneur :
 
-**docker build -t <leNomDeVotreImage>** 
+**docker build -t "<"leNomDeVotreImage">" .** 
 
   
 - Lancement du service 
   
-**docker run --name docker_jelly -d -p 8096:8096 -v ${PWD}/video:/var/media/jellyfin -v ${PWD}/config:/var/lib/jellyfin -v ${PWD}/cache:/var/cache/jellyfin <leNomDeVotreImage>**
+**docker run --name docker_jelly -d -p 8096:8096 -v "$""{"PWD"}"/video:/var/media/jellyfin -v "$""{"PWD"}"/config:/var/lib/jellyfin -v "$""{"PWD"}"/cache:/var/cache/jellyfin "<"leNomDeVotreImage">"**
   
   
 Une fois le service lancé 
