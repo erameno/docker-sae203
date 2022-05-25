@@ -16,6 +16,14 @@ Afin de rendre l'accès possible à tous de notre projet, nous avons du utiliser
 
 Un DockerFile va définir les différentes étapes que l'ordinateur va suivre afin de modifier l'image que nous souhaitons créer. 
 
+La première commande est : 
+```RUN apt update &&\apt upgrade -y &&\apt install apt-transport-https ca-certificates gnupg2 curl git wget -y``` 
+
+Cette commande sert donc à 
+
+La seconde instruction est : 
+
+
 
 
 
