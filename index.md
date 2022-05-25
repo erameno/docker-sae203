@@ -18,17 +18,17 @@ Afin de rendre l'accès possible à tous de notre projet, nous avons du utiliser
 
 Un DockerFile va définir les différentes étapes que l'ordinateur va suivre afin de modifier l'image que nous souhaitons créer. 
 
-La première commande est : 
+La **première commande** est : 
 ```RUN apt update &&\apt upgrade -y &&\apt install apt-transport-https ca-certificates gnupg2 curl git wget -y``` 
 
-_Cette commande sert dans un premier temps à mettre à jour le système Debian, puis ensuite d'installer les paquets requis afin que Jellyfin soit entièrement fonctionnel et qu'il n'y ai pas de bugs.  _
+_Cette commande sert dans un premier temps à mettre à jour le système Debian, puis ensuite d'installer les paquets requis afin que Jellyfin soit entièrement fonctionnel et qu'il n'y ai pas de bugs._
 
-La seconde instruction est : 
+La **seconde instruction** est : 
 ```sudo wget -O- https://repo.jellyfin.org/jellyfin_team.gpg.key | gpg --dearmor | sudo tee /usr/share/keyrings/jellyfin.gpg``` 
 
 _Cette commande sert à importer la clé GPG qui sert à vérifier le paquet installé précedemment, afin que l'installation ne pose aucun porblèmes._
 
-La troisième étape va être d'importer le référentiel de Jellyfin en version stable :
+La **troisième étape** va être d'importer le référentiel de Jellyfin en version stable :
 ```echo "deb [arch=$( dpkg --print-architecture ) signed-by=/usr/share/keyrings/jellyfin.gpg] https://repo.jellyfin.org/debian bullseye main" | sudo tee /etc/apt/sources.list.d/jellyfin.list```
 
 La commande : ```EXPOSE 8096```sert à donner à Jellyfin le port sur lequel il sera accessible.
