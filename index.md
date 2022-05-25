@@ -11,7 +11,10 @@ Pour commencer le travail, nous avons répartis les tâches entre chaques membre
   - Deux personnes se sont donc occupées de configurer Jellyfin comme il fallait.
   - La dernière personne s'est assurée que tout le monde soit synchronisé avec le repository gitHub afin que nous puissions travailler de la meilleure manière possible. 
 
-## Rendu final 
+## Le DockerFile
+Afin de rendre l'accès possible à tous de notre projet, nous avons du utiliser un fichier DockerFile.
+Un DockerFile va définir les différentes étapes que l'ordinateur va suivre afin de modifier l'image que nous souhaitons créer. 
+
 
 
 
