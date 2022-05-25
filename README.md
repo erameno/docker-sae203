@@ -5,14 +5,13 @@ Instruction d'installation
 
 
 - Cloner le réféfrentiel dans le dossier de votre choix  :
-
-**git clone git@github.com:erameno/docker-sae203.git**
+```git clone git@github.com:erameno/docker-sae203.git```
 
 
 
 - Se positionner dans le répositoire : 
 
-**cd docker-sae203** 
+```cd docker-sae203```
 
 *Cette commande est à effectuer au même endroit où vous avez décidé de cloner le répositoire* 
 
@@ -20,12 +19,12 @@ Instruction d'installation
 
 - Construction du conteneur :
 
-**docker build -t "<"leNomDeVotreImage">" .** 
+```docker build -t <leNomDeVotreImage> .``` 
 
   
 - Lancement du service 
   
-**docker run --name docker_jelly -d -p 8096:8096 -v "$""{"PWD"}"/video:/var/media/jellyfin -v "$""{"PWD"}"/config:/var/lib/jellyfin -v "$""{"PWD"}"/cache:/var/cache/jellyfin "<"leNomDeVotreImage">"**
+```docker run --name docker_jelly -d -p 8096:8096 -v ${PWD}/media:/var/media/jellyfin -v ${PWD}/config:/var/lib/jellyfin -v ${PWD}/cache:/var/cache/jellyfin <leNomDeVotreImage>```
   
   
 Une fois le service lancé 
